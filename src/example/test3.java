@@ -2,7 +2,7 @@ package example;
 
 import java.util.Scanner;
 
-public class test1 { //猜数小游戏
+public class test3 { //猜数小游戏
 	public static void main(String[] args) {
 		String choose;
 		do {
