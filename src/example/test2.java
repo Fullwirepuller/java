@@ -2,7 +2,7 @@ package example;
 
 import java.util.Scanner;
 
-public class test4 { //画框求成本
+public class test2 { //画框求成本
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 
