@@ -22,7 +22,7 @@ public class test3 {
 		int oneCentNumber;
 		
 		Scanner scan = new Scanner(System.in);
-		System.out.println("ÇëÊäÈëÃÀÔªµÄ´óĞ¡£º");
+		System.out.println("è¯·è¾“å…¥ç¾å…ƒçš„å¤§å°ï¼š");
 		money = scan.nextFloat();
 
 		MONEY = 100 * money;
@@ -34,12 +34,12 @@ public class test3 {
 		twoCentNumber = (int) (((((MONEY % 100) % 50) % 20) % 10) % 5) / 2;
 		oneCentNumber = (int) ((((((MONEY % 100) % 50) % 20) % 10) % 5) % 2) / 1;
 
-		System.out.println("1ÃÀÔªµÄÊıÁ¿£º" + dollarsNumber);
-		System.out.println("50ÃÀ·ÖµÄÊıÁ¿£º" + fiftyCentNumber);
-		System.out.println("20ÃÀ·ÖµÄÊıÁ¿£º" + twentyCentNumber);
-		System.out.println("10ÃÀ·ÖµÄÊıÁ¿£º" + tenCentNumber);
-		System.out.println("5ÃÀ·ÖµÄÊıÁ¿£º" + fiveCentNumber);
-		System.out.println("2ÃÀ·ÖµÄÊıÁ¿£º" + twoCentNumber);
-		System.out.println("1ÃÀ·ÖµÄÊıÁ¿£º" + oneCentNumber);
+		System.out.println("1ç¾å…ƒçš„æ•°é‡ï¼š" + dollarsNumber);
+		System.out.println("50ç¾åˆ†çš„æ•°é‡ï¼š" + fiftyCentNumber);
+		System.out.println("20ç¾åˆ†çš„æ•°é‡ï¼š" + twentyCentNumber);
+		System.out.println("10ç¾åˆ†çš„æ•°é‡ï¼š" + tenCentNumber);
+		System.out.println("5ç¾åˆ†çš„æ•°é‡ï¼š" + fiveCentNumber);
+		System.out.println("2ç¾åˆ†çš„æ•°é‡ï¼š" + twoCentNumber);
+		System.out.println("1ç¾åˆ†çš„æ•°é‡ï¼š" + oneCentNumber);
 	}
 }
