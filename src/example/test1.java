@@ -2,7 +2,7 @@ package example;
 
 import java.util.Scanner;
 
-public class test3 { //求硬币的数量
+public class test1 { //求美元硬币的数量
 	public static void main(String[] args) {
 		final int ONE_DOLLARS = 100;
 		final int FIFTY_CENT_COINS = 50;
