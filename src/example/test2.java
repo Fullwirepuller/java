@@ -2,7 +2,7 @@ package example;
 
 import java.util.Scanner;
 
-public class test4 {
+public class test4 { //ç”»æ¡†æ±‚æˆæœ¬
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 
@@ -29,15 +29,15 @@ public class test4 {
 		String frameType;
 		int crownsNumber;
 
-		System.out.println("ÇëÊäÈëÕÕÆ¬µÄ¿í¶È£º");
+		System.out.println("è¯·è¾“å…¥ç…§ç‰‡çš„å®½åº¦ï¼š");
 		pictureWidth = scan.nextFloat();
-		System.out.println("ÇëÊäÈëÕÕÆ¬µÄ³¤¶È£º");
+		System.out.println("è¯·è¾“å…¥ç…§ç‰‡çš„é•¿åº¦ï¼š");
 		pictureLength = scan.nextFloat();
-		System.out.println("ÇëÊäÈë¿ò¼ÜµÄÀàĞÍ£º");
+		System.out.println("è¯·è¾“å…¥æ¡†æ¶çš„ç±»å‹ï¼š");
 		frameType = scan.next();
-		System.out.println("ÇëÊäÈë¿ò¼ÜµÄÑÕÉ«£º");
+		System.out.println("è¯·è¾“å…¥æ¡†æ¶çš„é¢œè‰²ï¼š");
 		frameColour = scan.next();
-		System.out.println("ÇëÊäÈëÏëÒª·ÅÈë»Ê¹ÚµÄÊıÁ¿£º");
+		System.out.println("è¯·è¾“å…¥æƒ³è¦æ”¾å…¥çš‡å† çš„æ•°é‡ï¼š");
 		crownsNumber = scan.nextInt();
 
 		pictureSquare = pictureWidth * pictureLength;
@@ -53,18 +53,18 @@ public class test4 {
         if(frameColour.equals("white")) {
         	if(frameType.equals("regular")) {
         		costTotal = regularFrameCost + cardboardCost + glassCost + crownCost;
-        		System.out.println("»­¿òµÄ³É±¾Îª£º" + costTotal);
+        		System.out.println("ç”»æ¡†çš„æˆæœ¬ä¸ºï¼š" + costTotal);
         	}else{
         		costTotal = fancyFrameCost + cardboardCost + glassCost + crownCost;
-        		System.out.println("»­¿òµÄ³É±¾Îª£º" + costTotal);
+        		System.out.println("ç”»æ¡†çš„æˆæœ¬ä¸ºï¼š" + costTotal);
         	}
         }else {
         	if(frameType.equals("regular")) {
         		costTotal = colourFrameCost + regularFrameCost + cardboardCost + glassCost + crownCost;
-        		System.out.println("»­¿òµÄ³É±¾Îª£º" + costTotal);
+        		System.out.println("ç”»æ¡†çš„æˆæœ¬ä¸ºï¼š" + costTotal);
         	}else{
         		costTotal = colourFrameCost + fancyFrameCost + cardboardCost + glassCost + crownCost;
-        		System.out.println("»­¿òµÄ³É±¾Îª£º" + costTotal);
+        		System.out.println("ç”»æ¡†çš„æˆæœ¬ä¸ºï¼š" + costTotal);
         	}
         }
 	}
