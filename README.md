@@ -2,4 +2,4 @@
 - 👀 I’m interested in java
 - 🌱 I’m currently learning programs
 - 📫 How to reach me...
-     -qq874716940
+     -my email is 874716940@qq.com
