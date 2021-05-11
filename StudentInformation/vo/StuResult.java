@@ -2,13 +2,24 @@ package StudentInformation.vo;
 
 public class StuResult extends Student{
 	private float StuAverage;
+	private int count;
 
 	public StuResult() {
 		super();
 	}
 
-	public StuResult(float stuAverage) {
-		StuAverage = stuAverage;
+	public StuResult(String id, String name, String gender, float stuAverage, int count) {
+		super(id, name, gender);
+		this.StuAverage = stuAverage;
+		this.count = count;
+	}
+	
+	public int getCount() {
+		return count;
+	}
+
+	public void setCount(int count) {
+		this.count = count;
 	}
 
 	public float getStuAverage() {
