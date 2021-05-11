@@ -12,7 +12,7 @@ public class Driver {
 	public static void main(String[] args) {
 		ArrayList<Student> listStu = StudentDao.inputStu();
 		ArrayList<Subject> listSubj = StudentDao.inputSubj();
-		ArrayList<StuResult> stuListResult = StudentDao.stuAverage(listSubj);
+		ArrayList<StuResult> stuListResult = StudentDao.stuAverage(listStu,listSubj);
 		ArrayList<SubjResult> subjListResult = StudentDao.subjAverage(listSubj);
 		StudentDao.display(stuListResult,subjListResult);
 	}
